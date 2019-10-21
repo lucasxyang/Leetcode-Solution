@@ -10,9 +10,7 @@ public int removeDuplicates(int[] nums) {
     int prev = nums[0];
     
     int currCount = 1;
-    
-    int res = 0;
-    
+        
     while (right < len) {
         if (nums[right] == curr) {
             currCount ++;
