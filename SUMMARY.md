@@ -8,5 +8,5 @@
 * [152. Maximum Product Subarray](152.md)
 * [713. Subarray Product Less Than K](713.md)
 * [303. Range Sum Query - Immutable](303.md)
-* [325. Maximum Size Subarray Sum Equals k](713-1.md)
+* [325. Maximum Size Subarray Sum Equals k](325.md)
 
