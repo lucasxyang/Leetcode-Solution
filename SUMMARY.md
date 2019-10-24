@@ -5,4 +5,5 @@
 * [80. Remove Duplicates from Sorted Array II](80.md)
 * [121, 122, 123, 188. Best Time to Buy and Sell Stock](121.md)
 * [53. Maximum Subarray](53.md)
-
+* [152. Maximum Product Subarray](152.md)
+* [713. Subarray Product Less Than K](713.md)
