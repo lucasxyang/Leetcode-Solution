@@ -10,4 +10,6 @@
 * [303. Range Sum Query - Immutable](303.md)
 * [307. Range Sum Query - Mutable](307.md)
 * [325. Maximum Size Subarray Sum Equals k](325.md)
+* [141, 142. Linked List Cycle](141.-linked-list-cycle.md)
+* [160, 599. 队列共同元素](160-599.-dui-lie-gong-tong-yuan-su.md)
 
