@@ -13,3 +13,17 @@
 * [141, 142. Linked List Cycle](141.-linked-list-cycle.md)
 * [160, 599. 队列共同元素](160-599.-dui-lie-gong-tong-yuan-su.md)
 
+## 其他Contest
+
+* [1243. Array Transformation](qi-ta-contest/1243.-array-transformation.md)
+* [1244. Design A Leaderboard](qi-ta-contest/1244.-design-a-leaderboard.md)
+
+## Java 8 Stream
+
+* [Stream&lt;T&gt;, IntStream, Collector&lt;T,A,R&gt;, & Collectors](java-8-stream/untitled.md)
+* [Untitled](java-8-stream/untitled-1.md)
+
+## Comparable & Comparator
+
+* [Comparator and Java 8 ::](comparable-and-comparator/untitled.md)
+
