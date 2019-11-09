@@ -21,9 +21,9 @@
 ## Java 8 Stream
 
 * [Stream&lt;T&gt;, IntStream, Collector&lt;T,A,R&gt;, & Collectors](java-8-stream/untitled.md)
-* [Untitled](java-8-stream/untitled-1.md)
 
 ## Comparable & Comparator
 
+* [Comparable vs Comparator](comparable-and-comparator/comparable-vs-comparator.md)
 * [Comparator and Java 8 ::](comparable-and-comparator/untitled.md)
 
