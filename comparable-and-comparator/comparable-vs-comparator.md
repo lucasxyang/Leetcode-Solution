@@ -48,6 +48,7 @@ public class Student implements Comparable<Student> {
 重写 compare\(T o1, T o2\) 的方式很多，我们一个个说。
 
 1. 我们可以创建一个Comparator&lt;T&gt;类型的field或者variable，并在其中实现要重写的compare\(T o1, T o2\)。
+2. test. 
 
 ```text
 import java.util.Comparator;
