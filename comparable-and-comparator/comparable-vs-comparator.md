@@ -48,7 +48,6 @@ public class Student implements Comparable<Student> {
 重写 compare\(T o1, T o2\) 的方式很多，我们一个个说。
 
 1. 我们可以创建一个Comparator&lt;T&gt;类型的field或者variable，并在其中实现要重写的compare\(T o1, T o2\)。
-2. test. 
 
 ```text
 import java.util.Comparator;
@@ -158,3 +157,10 @@ Comparator:
 
 \*: 假设我们使用标准的this.name - otherObject.name语句。如果使用逆序的话，根据同样的返回值，第二栏的大小顺序要改变，第三栏的位置顺序也要改变，最终得到的custom comparator等价于一个descending order comparator。
 
+
+Ref: 
+https://www.javaworld.com/article/3323403/java-challengers-5-sorting-with-comparable-and-comparator-in-java.html
+
+https://stackoverflow.com/questions/22391350/how-to-sort-a-hashset
+
+https://www.baeldung.com/java-8-double-colon-operator
