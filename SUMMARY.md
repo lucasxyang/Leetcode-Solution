@@ -26,4 +26,6 @@
 
 * [Comparable vs. Comparator](comparable-and-comparator/comparable-vs-comparator.md)
 * [Comparator and Java 8 ::](comparable-and-comparator/untitled.md)
+* [Oracle Java SE 8 API](https://docs.oracle.com/javase/8/docs/api/)
+* [Topics](topics.md)
 
