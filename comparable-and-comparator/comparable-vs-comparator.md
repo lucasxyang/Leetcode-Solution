@@ -1,8 +1,8 @@
-# Comparable vs Comparator
+# Comparable vs. Comparator
 
 Comparable, 顾名思义是一个interface, 就像Serializable, Navigable, Cloneable。Comparable由某一class实现，就是implemented by classA. 当我们自己写Comparable的时候，我们往往是新定义一个custom class, such as Student, 然后让Student implements Comparable&lt;Student&gt;，并在类中重定义/override int compareTo\(T o\)这一函数来对他们按学号排序，在此例即为int compareTo\(Student o\)。（当然别忘了boolean equals\(Object o\) 和 int hashCode\(\)这两个）
 
-相比之下Comparator就轻量多了。我们可以定义一个custom Comparator on the fly, 哪怕对已有默认排序的类我们都可以给它扔一个新的Comparator, 比如学生的默认排序是学号，我们可以在需要的时候给它按成绩高低排序，或者按出生日期排序。Comparator有效地将排序逻辑从类中剥离出。
+相比之下Comparator就轻量多了。我们可以定义一个custom Comparator on the fly, 哪怕对已有默认排序（natural ordering）的类我们都可以给它扔一个新的Comparator, 比如学生的默认排序是学号，我们可以在需要的时候给它按成绩高低排序，或者按出生日期排序。Comparator有效地将排序逻辑从类中剥离出。
 
 ## Syntax
 
@@ -93,13 +93,13 @@ Arrays.sort(students, new Comparator<Student>() {
 Arrays.sort(gift, Comparator.comparing(Student::getScore));
 ```
 
-\(4\)【Java 8】对于已实现Comparable&lt;T&gt;的类来说，我们可以用Java 8的箭头函数来调用它的默认comparator。
+\(4\)【Java 8】对于已实现Comparable&lt;T&gt;的类来说，我们可以用Java 8的箭头函数来调取它的natural order comparison（默认comparator）。
 
 ```text
 Arrays.sort(students, (m1, m2) -> m1 - m2);
 ```
 
-\(5\)【Java 8】对于已实现Comparable&lt;T&gt;的类来说，我们也可以得到它的default comparator, 在排序前做一些改动。
+\(5\)【Java 8】对于已实现Comparable&lt;T&gt;的类来说，我们也可以得到它的natural comparator, 在排序前做一些改动。
 
 ```text
 Arrays.sort(students, Comparator.naturalOrder());
@@ -147,9 +147,13 @@ Comparator:
 
 \*: 假设我们使用标准的this.name - otherObject.name语句。如果使用逆序的话，根据同样的返回值，第二栏的大小顺序要改变，第三栏的位置顺序也要改变，最终得到的custom comparator等价于一个descending order comparator。
 
-Ref: [https://www.javaworld.com/article/3323403/java-challengers-5-sorting-with-comparable-and-comparator-in-java.html](https://www.javaworld.com/article/3323403/java-challengers-5-sorting-with-comparable-and-comparator-in-java.html)
+Ref: 
+
+[https://www.javaworld.com/article/3323403/java-challengers-5-sorting-with-comparable-and-comparator-in-java.html](https://www.javaworld.com/article/3323403/java-challengers-5-sorting-with-comparable-and-comparator-in-java.html)
 
 [https://stackoverflow.com/questions/22391350/how-to-sort-a-hashset](https://stackoverflow.com/questions/22391350/how-to-sort-a-hashset)
 
 [https://www.baeldung.com/java-8-double-colon-operator](https://www.baeldung.com/java-8-double-colon-operator)
+
+[https://howtodoinjava.com/java/collections/java-comparable-interface/](https://howtodoinjava.com/java/collections/java-comparable-interface/)
 

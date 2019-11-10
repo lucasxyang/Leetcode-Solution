@@ -24,6 +24,6 @@
 
 ## Comparable & Comparator
 
-* [Comparable vs Comparator](comparable-and-comparator/comparable-vs-comparator.md)
+* [Comparable vs. Comparator](comparable-and-comparator/comparable-vs-comparator.md)
 * [Comparator and Java 8 ::](comparable-and-comparator/untitled.md)
 
