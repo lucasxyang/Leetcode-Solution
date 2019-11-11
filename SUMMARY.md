@@ -28,4 +28,6 @@
 * [Comparator and Java 8 ::](comparable-and-comparator/untitled.md)
 * [Oracle Java SE 8 API](https://docs.oracle.com/javase/8/docs/api/)
 * [Topics](topics.md)
+* [C/C++ Pointer cheatsheet](c-c++-pointer-cheatsheet.md)
+* [Pass by reference? Pass by value?](pass-by-reference-pass-by-value.md)
 
