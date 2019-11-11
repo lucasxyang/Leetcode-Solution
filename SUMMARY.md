@@ -30,4 +30,5 @@
 * [Topics](topics.md)
 * [C/C++ Pointer cheatsheet](c-c++-pointer-cheatsheet.md)
 * [Pass by reference? Pass by value?](pass-by-reference-pass-by-value.md)
+* [On Garbage Collection](on-garbage-collection.md)
 
