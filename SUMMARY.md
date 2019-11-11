@@ -17,6 +17,7 @@
 
 * [1243. Array Transformation](qi-ta-contest/1243.-array-transformation.md)
 * [1244. Design A Leaderboard](qi-ta-contest/1244.-design-a-leaderboard.md)
+* [1250. Check If It Is a Good Array](qi-ta-contest/1250.-check-if-it-is-a-good-array.md)
 
 ## Java 8 Stream
 
