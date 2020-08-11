@@ -51,7 +51,9 @@
       </td>
     </tr>
   </tbody>
-</table>There are three ways to pass argument in C++. Using IBM's [categorization](https://www.ibm.com/support/knowledgecenter/en/SSLTBW_2.3.0/com.ibm.zos.v2r3.cbclx01/cfpv.htm), 
+</table>
+
+There are three ways to pass argument in C++. Using IBM's [categorization](https://www.ibm.com/support/knowledgecenter/en/SSLTBW_2.3.0/com.ibm.zos.v2r3.cbclx01/cfpv.htm), 
 
 C++ Pass by Value, is the ordinary \*pass by value\* we know. 
 
