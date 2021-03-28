@@ -2,6 +2,7 @@
 
 * [Initial page](README.md)
 * [14. Longest Common Prefix](14.-longest-common-prefix.md)
+* [20, 22. 括号](20-22.-kuo-hao.md)
 * [26. Remove Duplicates from Sorted Array](26.md)
 * [53. Maximum Subarray](53.md)
 * [80. Remove Duplicates from Sorted Array II](80.md)
@@ -12,13 +13,14 @@
 * [152. Maximum Product Subarray](152.md)
 * [160, 599. 队列共同元素](160-599.-dui-lie-gong-tong-yuan-su.md)
 * [173. Binary Search Tree Iterator](173.-binary-search-tree-iterator.md)
+* [206, 234, 92. Reverse Linked List](206-234-92.-reverse-linked-list.md)
 * [303. Range Sum Query - Immutable](303.md)
 * [307. Range Sum Query - Mutable](307.md)
 * [325. Maximum Size Subarray Sum Equals k](325.md)
 * [543. Diameter of Binary Tree](543.-diameter-of-binary-tree.md)
+* [678. Valid Parenthesis String](678.-valid-parenthesis-string.md)
 * [713. Subarray Product Less Than K](713.md)
 * [1245. Tree Diameter](1245.-tree-diameter.md)
-* [206, 234, 92. Reverse Linked List](206-234-92.-reverse-linked-list.md)
 
 ## 其他Contest
 
